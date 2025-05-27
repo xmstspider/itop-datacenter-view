@@ -74,7 +74,7 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	'Molkobain:DatacenterView:Tabs:View:Title' => 'Grafické zobrazení',
 	'Molkobain:DatacenterView:NoElement' => 'Žádný prvek',
 	// - Messages
-	'Molkobain:DatacenterView:WarningMessage:NoHeightForHost' => 'No height defined for the element, devices might not display correctly.~~',
+	'Molkobain:DatacenterView:WarningMessage:NoHeightForHost' => 'Není definována výška pro tento prvek, umístění zařízení nemusí být správně zobrazeno!',
 	// - Legend
 	'Molkobain:DatacenterView:Legend:Title' => 'Legenda',
 	// - Filter
@@ -91,11 +91,11 @@ Dict::Add('CS CZ', 'Czech', 'Čeština', array(
 	// - Rack
 	'Molkobain:DatacenterView:Rack:Panel:Front:Title' => 'Čelo',
 	// - Enclosure
-	'Molkobain:DatacenterView:Enclosure:Panel:Front:Title' => 'Čelo',
+	'Molkobain:DatacenterView:Enclosure:Panel:Front:Title' => 'Přední čast',
 	// - Unmounted elements
 	'Molkobain:DatacenterView:Unmounted:Toggler:Tooltip' => 'Sbalit / Rozbalit',
-	'Molkobain:DatacenterView:Unmounted:Enclosures:Title' => 'Nepřipojené skříně',
-	'Molkobain:DatacenterView:Unmounted:Enclosures:Title+' => 'Připojené k tomuto racku ale bez nastavené pozice (Pro nastavení pozice upravte nstavené skříně)',
-	'Molkobain:DatacenterView:Unmounted:Devices:Title' => 'Nepřipojené zařízení',
-	'Molkobain:DatacenterView:Unmounted:Devices:Title+' => 'Připojeno k tomuto racku / skříni ale bez ale bez nastavené pozice (Pro nstavení pozice upravte nstavené zařízení)',
+	'Molkobain:DatacenterView:Unmounted:Enclosures:Title' => 'Neumístěná šasi',
+	'Molkobain:DatacenterView:Unmounted:Enclosures:Title+' => 'Šasi je umístěno v tomto racku, ale nemá nastavenu pozici (přetažením/editací umístíte šasi v racku na příslušnou pozici)',
+	'Molkobain:DatacenterView:Unmounted:Devices:Title' => 'Neumístěná zařízení',
+	'Molkobain:DatacenterView:Unmounted:Devices:Title+' => 'Zařízení je umístěno v tomuto racku, ale nemá nastavenu pozici (přetažením/editací umístíte zařízení v racku na příslušnou pozici)',
 ));
